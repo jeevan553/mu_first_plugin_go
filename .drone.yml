@@ -1,0 +1,8 @@
+kind: pipeline
+type: docker
+name: default
+
+pipeline:
+  my_plugin_step:
+    image: test
+    input: "Hello from Drone"
